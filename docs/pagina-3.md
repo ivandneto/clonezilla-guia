@@ -9,7 +9,7 @@ O exemplo mostra backup de **uma partição**, mas o processo para backup de **u
 
 # 🔹 Passo 1 — Selecionar o modo de operação
 
-Selecione:
+Selecione: device-image
 
 Este modo é utilizado para **criar imagens de backup** ou **restaurar imagens já existentes**.
 
@@ -19,7 +19,7 @@ Este modo é utilizado para **criar imagens de backup** ou **restaurar imagens j
 
 # 🔹 Passo 2 — Selecionar onde salvar o backup
 
-Escolha:
+Escolha: local_dev
 
 Isso indica que a imagem será salva em um dispositivo conectado diretamente à máquina.
 
@@ -35,7 +35,7 @@ O Clonezilla listará todas as partições disponíveis.
 
 ⚠️ Não mostra partições SWAP.
 
-Exemplo:
+Exemplo: sdb3
 
 ![Seleção de partição destino](../images/pagina-3/pag3-image3.png)
 
@@ -55,7 +55,7 @@ Pressione Enter para continuar.
 
 # 🔹 Passo 5 — Selecionar modo de execução
 
-Escolha:
+Escolha: Expert
 
 Assim podemos personalizar parâmetros importantes.
 
@@ -65,9 +65,9 @@ Assim podemos personalizar parâmetros importantes.
 
 # 🔹 Passo 6 — Escolher o tipo de backup
 
-Como o backup será de uma **partição**, selecione:
+Como o backup será de uma **partição**, selecione: saveparts
 
-Para backup de disco completo, seria:
+Para backup de disco completo, seria: savedisk
 
 ![saveparts](../images/pagina-3/pag3-image6.png)
 
@@ -75,7 +75,7 @@ Para backup de disco completo, seria:
 
 # 🔹 Passo 7 — Nome da imagem de backup
 
-Defina um nome descritivo, por exemplo:
+Defina um nome descritivo, por exemplo: backup_sda1_2025
 
 ![Nome do backup](../images/pagina-3/pag3-image7.png)
 
@@ -83,7 +83,7 @@ Defina um nome descritivo, por exemplo:
 
 # 🔹 Passo 8 — Selecionar a partição de origem (que será copiada)
 
-Exemplo:
+Exemplo: sda1
 
 ![Origem do backup](../images/pagina-3/pag3-image8.png)
 
@@ -91,7 +91,7 @@ Exemplo:
 
 # 🔹 Passo 9 — Ajuste de prioridade (opcional)
 
-Para dar prioridade ao Partclone:
+Para dar prioridade ao Partclone: -q2
 
 ![Prioridade q2](../images/pagina-3/pag3-image9.png)
 
@@ -110,7 +110,7 @@ Deixe habilitados:
 
 # 🔹 Passo 11 — Tipo de compressão
 
-Escolha o tipo de compressão, recomendamos:
+Escolha o tipo de compressão, recomendamos: -z1 (gzip)
 
 Equilíbrio ideal entre tamanho e velocidade.
 
@@ -122,7 +122,7 @@ Equilíbrio ideal entre tamanho e velocidade.
 
 Define o tamanho máximo de cada parte do backup.
 
-Recomendado para grandes imagens:
+Recomendado para grandes imagens: 5000 MB
 
 ![Split size](../images/pagina-3/pag3-image12.png)
 
@@ -130,7 +130,7 @@ Recomendado para grandes imagens:
 
 # 🔹 Passo 13 — Verificação do sistema de arquivos
 
-Escolha:
+Escolha: Skip checking/repairing source file system
 
 ![Skip checking](../images/pagina-3/pag3-image13.png)
 
@@ -138,11 +138,11 @@ Escolha:
 
 # 🔹 Passo 14 — Verificação da imagem gerada
 
-Selecione:
+Selecione: Sim, verificar a imagem salva
 
 ![Verificação](../images/pagina-3/pag3-image14.png)
 
-Defina o que fazer ao final do processo:
+Defina o que fazer ao final do processo: -p true
 
 (significa: não fazer nada)
 
