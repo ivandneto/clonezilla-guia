@@ -30,7 +30,7 @@ Para o backup via SSH funcionar corretamente:
 
 # 🔹 Passo 1 — Selecionar o modo de operação
 
-Escolha:
+Escolha: device-image
 
 ![device-image](../images/pagina-5/pag5-image1.png)
 
@@ -38,7 +38,7 @@ Escolha:
 
 # 🔹 Passo 2 — Selecionar o tipo de armazenamento
 
-Escolha:
+Escolha: ssh_server
 
 ![ssh_server](../images/pagina-5/pag5-image2.png)
 
@@ -48,7 +48,7 @@ Escolha:
 
 Digite o IP do servidor onde o backup será salvo.
 
-Exemplo:
+Exemplo: 192.168.56.11 
 
 ![IP SSH](../images/pagina-5/pag5-image3.png)
 
@@ -56,7 +56,7 @@ Exemplo:
 
 # 🔹 Passo 4 — Informar a porta SSH
 
-Na maioria dos casos:
+Na maioria dos casos: Porta 22
 
 ![Porta SSH](../images/pagina-5/pag5-image4.png)
 
@@ -66,7 +66,7 @@ Na maioria dos casos:
 
 Digite o nome do usuário autorizado no servidor remoto.
 
-Exemplo:
+Exemplo: Edson
 
 ![Usuário SSH](../images/pagina-5/pag5-image5.png)
 
@@ -76,7 +76,7 @@ Exemplo:
 
 O caminho deve ser **absoluto** e o usuário deve ter direito de escrita.
 
-Exemplo:
+Exemplo: /home/edson/clonezilla
 
 ![Diretório remoto](../images/pagina-5/pag5-image6.png)
 
@@ -94,7 +94,7 @@ Pressione Enter para continuar.
 
 # 🔹 Passo 8 — Selecionar o modo de execução
 
-Escolha:
+Escolha: Expert
 
 ![Expert](../images/pagina-5/pag5-image8.png)
 
@@ -102,7 +102,7 @@ Escolha:
 
 # 🔹 Passo 9 — Selecionar o tipo de backup
 
-Como o backup será do disco inteiro:
+Como o backup será do disco inteiro: Savedisk
 
 ![savedisk](../images/pagina-5/pag5-image9.png)
 
@@ -112,7 +112,7 @@ Como o backup será do disco inteiro:
 
 Defina um nome descritivo.
 
-Exemplo:
+Exemplo: backup_sda_ssh_2025
 
 ![Nome do backup](../images/pagina-5/pag5-image10.png)
 
@@ -120,7 +120,7 @@ Exemplo:
 
 # 🔹 Passo 11 — Selecionar o disco de origem
 
-Exemplo:
+Exemplo: sda
 
 ![Origem do disco](../images/pagina-5/pag5-image11.png)
 
@@ -128,7 +128,7 @@ Exemplo:
 
 # 🔹 Passo 12 — Ajustar prioridade
 
-Recomendado:
+Recomendado: -q2
 
 ![Prioridade](../images/pagina-5/pag5-image12.png)
 
@@ -144,7 +144,7 @@ Mantenha os padrões marcados.
 
 # 🔹 Passo 14 — Tipo de compressão
 
-Recomendado:
+Recomendado: -z1 (gzip)
 
 ![gzip](../images/pagina-5/pag5-image14.png)
 
@@ -152,7 +152,7 @@ Recomendado:
 
 # 🔹 Passo 15 — Divisão da imagem (opcional)
 
-Recomendado para grandes arquivos:
+Recomendado para grandes arquivos: 3000 MB
 
 ![Split size](../images/pagina-5/pag5-image15.png)
 
@@ -160,7 +160,7 @@ Recomendado para grandes arquivos:
 
 # 🔹 Passo 16 — Verificação do sistema de arquivos
 
-Escolha:
+Escolha: Skip checking/repairing source file system
 
 ![Skip checking](../images/pagina-5/pag5-image16.png)
 
@@ -168,9 +168,9 @@ Escolha:
 
 # 🔹 Passo 17 — Verificar imagem gerada
 
-Escolha:
+Escolha: -p true
 
-E após finalização:
+E após finalização: Sim, verificar a imagem salva
 
 ![Verificação](../images/pagina-5/pag5-image17.png)
 
