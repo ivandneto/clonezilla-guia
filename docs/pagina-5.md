@@ -3,7 +3,34 @@
 
 Nesta parte do guia, veremos como salvar um **backup completo do disco** diretamente em uma máquina remota utilizando **SSH**, garantindo segurança e integridade dos dados durante a transferência.
 
-Este é um dos métodos mais u
+Este é um dos métodos mais usados em ambientes corporativos.
+
+---
+
+# 🔹 Pré-requisitos
+
+Para o backup via SSH funcionar corretamente:
+
+- Servidor remoto deve estar **na mesma rede**
+- O servidor deve ter **SSH ativo**
+- O usuário do servidor precisa ter **permissão de escrita** no diretório escolhido
+- Rede deve ter DHCP (ou configurar manualmente)
+
+---
+
+# 🔹 Parâmetros usados no exemplo
+
+- IP da máquina rodando Clonezilla: **192.168.56.10**  
+- IP do servidor SSH remoto: **192.168.56.11**  
+- Usuário no servidor SSH: **edson**  
+- Porta SSH: **22**  
+- Diretório remoto: **/home/edson/clonezilla**
+
+---
+
+# 🔹 Passo 1 — Selecionar o modo de operação
+
+Escolha:
 
 ![device-image](../images/pagina-5/pag5-image1.png)
 
