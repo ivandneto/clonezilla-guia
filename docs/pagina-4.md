@@ -27,6 +27,8 @@ Este é o modo para montar um dispositivo local contendo a imagem de backup.
 
 Se estiver usando pendrive, aguarde 5 segundos e pressione Enter para montar.
 
+![Selecionar partição](../images/pagina-4/pag4-image4.png)
+
 ---
 
 # 🔹 Passo 3 — Selecionar a partição que contém a imagem  
@@ -35,7 +37,7 @@ Exemplo: sdb3
 
 Onde você salvou a imagem anteriormente.
 
-![Selecionar partição](../images/pagina-4/pag4-image4.png)
+![Selecionar diretório](../images/pagina-4/pag4-image5.png)
 
 ---
 
@@ -45,7 +47,7 @@ Selecione a pasta onde a imagem foi salva.
 
 Se foi no diretório raiz `/`, selecione-o.
 
-![Selecionar diretório](../images/pagina-4/pag4-image5.png)
+![Modo Expert](../images/pagina-4/pag4-image6.png)
 
 Pressione Enter para continuar.
 
@@ -57,7 +59,7 @@ Escolha: Expert
 
 Assim você controla parâmetros importantes.
 
-![Modo Expert](../images/pagina-4/pag4-image6.png)
+![restoreparts](../images/pagina-4/pag4-image7.png)
 
 ---
 
@@ -67,7 +69,7 @@ Para restaurar uma **partição**, selecione: restoreparts
 
 Para restaurar um **disco completo**, usaria: restoredisk
 
-![restoreparts](../images/pagina-4/pag4-image7.png)
+![Selecionar a imagem](../images/pagina-4/pag4-image8.png)
 
 ---
 
@@ -77,7 +79,7 @@ Será listado o backup salvo anteriormente.
 
 Exemplo: backup_sda1_2025
 
-![Selecionar a imagem](../images/pagina-4/pag4-image8.png)
+![Selecionar destino](../images/pagina-4/pag4-image9.png)
 
 ---
 
@@ -87,7 +89,7 @@ Esta partição será **sobrescrita totalmente**.
 
 Exemplo: sdb1
 
-![Selecionar destino](../images/pagina-4/pag4-image9.png)
+![Parâmetros avançados](../images/pagina-4/pag4-image10.png)
 
 ---
 
@@ -103,7 +105,7 @@ Mantenha habilitado:
 
 - `-j2` → necessário para boot funcionar
 
-![Parâmetros avançados](../images/pagina-4/pag4-image10.png)
+![Parâmetro -k](../images/pagina-4/pag4-image11.png)
 
 Pressione Enter.
 
@@ -117,7 +119,8 @@ Assim NÃO será criada nova tabela de partição.
 
 Para discos inteiros, usaríamos `-k1`.
 
-![Parâmetro -k](../images/pagina-4/pag4-image11.png)
+![Restauração em andamento](../images/pagina-4/pag4-image12.png)
+![Restauração em andamento](../images/pagina-4/pag4-image13.png)
 
 Configure também: -p true
 
@@ -134,7 +137,8 @@ Pressione:
 
 A restauração iniciará:
 
-![Restauração em andamento](../images/pagina-4/pag4-image12.png)
+![Partição restaurada](../images/pagina-4/pag4-image14.png)
+![Partição restaurada](../images/pagina-4/pag4-image15.png)
 
 ---
 
@@ -144,7 +148,7 @@ Depois do processo, a partição destino estará idêntica à partição salva n
 
 Você pode visualizar no particionamento:
 
-![Partição restaurada](../images/pagina-4/pag4-image13.png)
+
 
 ---
 
