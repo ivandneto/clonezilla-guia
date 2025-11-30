@@ -120,9 +120,10 @@ Assim NÃO será criada nova tabela de partição.
 Para discos inteiros, usaríamos `-k1`.
 
 ![Restauração em andamento](../images/pagina-4/pag4-image12.png)
-![Restauração em andamento](../images/pagina-4/pag4-image13.png)
 
 Configure também: -p true
+
+![Restauração em andamento](../images/pagina-4/pag4-image13.png)
 
 Para não executar nenhuma ação após finalizar.
 
