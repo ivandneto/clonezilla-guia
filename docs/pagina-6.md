@@ -81,6 +81,7 @@ Exemplo: /home/edson/clonezilla
 Digite a senha quando solicitado.
 
 ![Autenticação SSH](../images/pagina-6/pag6-image7.png)
+![Modo Expert](../images/pagina-6/pag6-image8.png)
 
 Pressione Enter para continuar.
 
@@ -90,7 +91,7 @@ Pressione Enter para continuar.
 
 Escolha: Expert
 
-![Modo Expert](../images/pagina-6/pag6-image8.png)
+![restoredisk](../images/pagina-6/pag6-image9.png)
 
 ---
 
@@ -98,7 +99,7 @@ Escolha: Expert
 
 Para restaurar disco inteiro, selecione: restoredisk
 
-![restoredisk](../images/pagina-6/pag6-image9.png)
+![Imagem selecionada](../images/pagina-6/pag6-image10.png)
 
 ---
 
@@ -108,7 +109,7 @@ O Clonezilla listará as imagens disponíveis no servidor SSH.
 
 Exemplo:
 
-![Imagem selecionada](../images/pagina-6/pag6-image10.png)
+![Disco destino](../images/pagina-6/pag6-image11.png)
 
 Escolha a imagem desejada.
 
@@ -120,7 +121,7 @@ O disco escolhido será completamente sobrescrito.
 
 Exemplo: sdc
 
-![Disco destino](../images/pagina-6/pag6-image11.png)
+![Parâmetros avançados](../images/pagina-6/pag6-image12.png)
 
 ---
 
@@ -136,7 +137,7 @@ Mantenha **marcado**:
 
 - `-j2` → garante consistência do gerenciador de boot
 
-![Parâmetros avançados](../images/pagina-6/pag6-image12.png)
+![Parâmetros avançados](../images/pagina-6/pag6-image13.png)
 
 ---
 
@@ -148,7 +149,7 @@ Isso cria uma nova tabela de partições no disco de destino, ajustando proporci
 
 ⚠ Pode não funcionar corretamente quando há partição SWAP no final da imagem.
 
-![Parâmetro -k1](../images/pagina-6/pag6-image13.png)
+![Parâmetro -k1](../images/pagina-6/pag6-image14.png)
 
 ---
 
@@ -156,7 +157,7 @@ Isso cria uma nova tabela de partições no disco de destino, ajustando proporci
 
 Escolha: -p true
 
-![Ação pós-processo](../images/pagina-6/pag6-image14.png)
+![Ação pós-processo](../images/pagina-6/pag6-image15.png)
 
 ---
 
@@ -164,15 +165,15 @@ Escolha: -p true
 
 Pressione Enter sempre que solicitado e confirme com: y
 
-![Confirmação 1](../images/pagina-6/pag6-image15.png)
+![Confirmação 1](../images/pagina-6/pag6-image16.png)
 
-![Confirmação 2](../images/pagina-6/pag6-image16.png)
+![Confirmação 2](../images/pagina-6/pag6-image17.png)
 
 ---
 
 # 🔹 Processo de restauração em andamento
 
-![Restauração via SSH](../images/pagina-6/pag6-image17.png)
+![Restauração via SSH](../images/pagina-6/pag6-image18.png)
 
 ---
 
@@ -180,7 +181,7 @@ Pressione Enter sempre que solicitado e confirme com: y
 
 Se o disco conter uma partição SWAP no fim, a expansão automática pode falhar — exigindo ajuste manual via GParted.
 
-![Resultado final](../images/pagina-6/pag6-image18.png)
+![Resultado final](../images/pagina-6/pag6-image19.png)
 
 ---
 
