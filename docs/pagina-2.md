@@ -141,7 +141,7 @@ O Clonezilla utiliza **Partclone** para copiar blocos usados.
 
 Após o processo, veja o particionamento:
 
-![Resultado da clonagem](../images/pagina-2/pag2-image12.png)
+![Clonagem de partição](../images/pagina-2/pag2-image13.png)
 
 Partição clonada corretamente e pronta para uso.
 
@@ -155,7 +155,7 @@ Repita os mesmos passos, porém selecione: part_to_local_part
 E use o parâmetro: -k
 
 
-![Clonagem de partição](../images/pagina-2/pag2-image13.png)
+![Clonagem de partição](../images/pagina-2/pag2-image14.png)
 
 ---
 
