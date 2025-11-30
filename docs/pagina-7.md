@@ -85,14 +85,14 @@ Exemplo: /clonezilla
 Após inserir, pressione Enter.
 
 ![Senha Samba](../images/pagina-7/pag7-image6.png)
-
+![Modo Expert](../images/pagina-7/pag7-image7.png)
 ---
 
 # 🔹 Passo 7 — Selecionar modo de execução
 
 Escolha: Expert
 
-![Modo Expert](../images/pagina-7/pag7-image7.png)
+![savedisk](../images/pagina-7/pag7-image8.png)
 
 ---
 
@@ -102,7 +102,7 @@ Escolha: savedisk
 
 Para salvar um backup completo do **disco local**.
 
-![savedisk](../images/pagina-7/pag7-image8.png)
+![savedisk](../images/pagina-7/pag7-image9.png)
 
 ---
 
@@ -110,7 +110,7 @@ Para salvar um backup completo do **disco local**.
 
 Escolha um nome descritivo, por exemplo: backup_sda_samba_2025
 
-![Nome do backup](../images/pagina-7/pag7-image9.png)
+![Nome do backup](../images/pagina-7/pag7-image10.png)
 
 ---
 
@@ -118,7 +118,7 @@ Escolha um nome descritivo, por exemplo: backup_sda_samba_2025
 
 Exemplo: sda
 
-![Origem](../images/pagina-7/pag7-image10.png)
+![Origem](../images/pagina-7/pag7-image11.png)
 
 ---
 
@@ -126,7 +126,7 @@ Exemplo: sda
 
 Recomendado: -q2
 
-![Prioridade](../images/pagina-7/pag7-image11.png)
+![Prioridade](../images/pagina-7/pag7-image12.png)
 
 ---
 
@@ -134,7 +134,7 @@ Recomendado: -q2
 
 Mantenha as opções padrão marcadas.
 
-![Parâmetros padrão](../images/pagina-7/pag7-image12.png)
+![Parâmetros padrão](../images/pagina-7/pag7-image13.png)
 
 ---
 
@@ -142,7 +142,7 @@ Mantenha as opções padrão marcadas.
 
 Escolha: -z1 (gzip)
 
-![gzip](../images/pagina-7/pag7-image13.png)
+![gzip](../images/pagina-7/pag7-image14.png)
 
 ---
 
@@ -150,7 +150,7 @@ Escolha: -z1 (gzip)
 
 Recomendado: 3000 MB
 
-![Split size](../images/pagina-7/pag7-image14.png)
+![Split size](../images/pagina-7/pag7-image15.png)
 
 ---
 
@@ -158,7 +158,7 @@ Recomendado: 3000 MB
 
 Escolha: Skip checking/repairing source file system
 
-![Skip check](../images/pagina-7/pag7-image15.png)
+![Skip check](../images/pagina-7/pag7-image16.png)
 
 ---
 
@@ -166,9 +166,11 @@ Escolha: Skip checking/repairing source file system
 
 Escolha: Sim, verificar a imagem salva
 
+![Verificação](../images/pagina-7/pag7-image17.png)
+
 E pós-processo: -p true
 
-![Verificação](../images/pagina-7/pag7-image16.png)
+![Verificação](../images/pagina-7/pag7-image18.png)
 
 ---
 
@@ -181,9 +183,12 @@ O Clonezilla realizará:
 - Divisão (se configurado)
 - Envio dos arquivos ao Samba
 
-![Backup Samba 1](../images/pagina-7/pag7-image17.png)
+![Backup Samba 1](../images/pagina-7/pag7-image19.png)
 
-![Backup Samba 2](../images/pagina-7/pag7-image18.png)
+![Backup Samba 2](../images/pagina-7/pag7-image20.png)
+
+![Backup Samba 2](../images/pagina-7/pag7-image21.png)
+
 
 ---
 
