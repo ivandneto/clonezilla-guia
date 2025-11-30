@@ -9,8 +9,8 @@ Este processo serve tanto para restauração de **partições individuais** quan
 
 # 🔹 Passo 1 — Selecionar o modo de operação
 
-Escolha:
-
+Escolha: device-image
+ 
 Isso indica que vamos **restaurar** uma imagem de backup salva anteriormente.
 
 ![Modo device-image](../images/pagina-4/pag4-image2.png)
@@ -19,7 +19,7 @@ Isso indica que vamos **restaurar** uma imagem de backup salva anteriormente.
 
 # 🔹 Passo 2 — Selecionar onde está armazenada a imagem
 
-Selecione:
+Selecione: local_dev
 
 Este é o modo para montar um dispositivo local contendo a imagem de backup.
 
@@ -30,7 +30,8 @@ Se estiver usando pendrive, aguarde 5 segundos e pressione Enter para montar.
 ---
 
 # 🔹 Passo 3 — Selecionar a partição que contém a imagem  
-Exemplo:
+
+Exemplo: sdb3
 
 Onde você salvou a imagem anteriormente.
 
@@ -52,7 +53,7 @@ Pressione Enter para continuar.
 
 # 🔹 Passo 5 — Selecionar o modo de execução
 
-Escolha:
+Escolha: Expert
 
 Assim você controla parâmetros importantes.
 
@@ -62,9 +63,9 @@ Assim você controla parâmetros importantes.
 
 # 🔹 Passo 6 — Escolher o tipo de restauração
 
-Para restaurar uma **partição**, selecione:
+Para restaurar uma **partição**, selecione: restoreparts
 
-Para restaurar um **disco completo**, usaria:
+Para restaurar um **disco completo**, usaria: restoredisk
 
 ![restoreparts](../images/pagina-4/pag4-image7.png)
 
@@ -74,7 +75,7 @@ Para restaurar um **disco completo**, usaria:
 
 Será listado o backup salvo anteriormente.
 
-Exemplo:
+Exemplo: backup_sda1_2025
 
 ![Selecionar a imagem](../images/pagina-4/pag4-image8.png)
 
@@ -84,7 +85,7 @@ Exemplo:
 
 Esta partição será **sobrescrita totalmente**.
 
-Exemplo:
+Exemplo: sdb1
 
 ![Selecionar destino](../images/pagina-4/pag4-image9.png)
 
@@ -110,7 +111,7 @@ Pressione Enter.
 
 # 🔹 Passo 10 — Configurar tabela de partição
 
-Como estamos restaurando **uma única partição**, escolha:
+Como estamos restaurando **uma única partição**, escolha: -k
 
 Assim NÃO será criada nova tabela de partição.
 
@@ -118,7 +119,7 @@ Para discos inteiros, usaríamos `-k1`.
 
 ![Parâmetro -k](../images/pagina-4/pag4-image11.png)
 
-Configure também:
+Configure também: -p true
 
 Para não executar nenhuma ação após finalizar.
 
