@@ -5,8 +5,7 @@ O objetivo deste repositório é preservar, organizar e facilitar o acesso ao co
 
 Toda a documentação foi dividida e estruturada em páginas dentro da pasta `/docs`, com imagens organizadas por capítulo em `/images`.
 
----
-
+```
 ## 📘 Estrutura da Documentação
 clonezilla-guia/
 ├── README.md
@@ -23,9 +22,7 @@ clonezilla-guia/
 │ └── pagina-9.md (Conclusão)
 └── images/
 └── pagina-X/ (imagens organizadas por capítulo)
-
-
----
+```
 
 ## 📚 Conteúdo da Parte 1
 
