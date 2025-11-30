@@ -66,7 +66,7 @@ Na maioria dos casos: Porta 22
 
 Digite o nome do usuário autorizado no servidor remoto.
 
-Exemplo: Edson
+Exemplo: edson
 
 ![Usuário SSH](../images/pagina-5/pag5-image5.png)
 
@@ -94,7 +94,7 @@ Pressione Enter para continuar.
 
 # 🔹 Passo 8 — Selecionar o modo de execução
 
-Escolha: Expert
+Escolha: 
 
 ![Expert](../images/pagina-5/pag5-image8.png)
 
@@ -102,7 +102,7 @@ Escolha: Expert
 
 # 🔹 Passo 9 — Selecionar o tipo de backup
 
-Como o backup será do disco inteiro: Savedisk
+Como o backup será do disco inteiro: Expert
 
 ![savedisk](../images/pagina-5/pag5-image9.png)
 
@@ -112,7 +112,7 @@ Como o backup será do disco inteiro: Savedisk
 
 Defina um nome descritivo.
 
-Exemplo: backup_sda_ssh_2025
+Exemplo: Savedisk 
 
 ![Nome do backup](../images/pagina-5/pag5-image10.png)
 
@@ -120,7 +120,7 @@ Exemplo: backup_sda_ssh_2025
 
 # 🔹 Passo 11 — Selecionar o disco de origem
 
-Exemplo: sda
+Exemplo: backup_sda_ssh_2025
 
 ![Origem do disco](../images/pagina-5/pag5-image11.png)
 
@@ -128,7 +128,7 @@ Exemplo: sda
 
 # 🔹 Passo 12 — Ajustar prioridade
 
-Recomendado: -q2
+Recomendado: sda
 
 ![Prioridade](../images/pagina-5/pag5-image12.png)
 
@@ -144,7 +144,7 @@ Mantenha os padrões marcados.
 
 # 🔹 Passo 14 — Tipo de compressão
 
-Recomendado: -z1 (gzip)
+Recomendado: -c e j2
 
 ![gzip](../images/pagina-5/pag5-image14.png)
 
@@ -152,7 +152,7 @@ Recomendado: -z1 (gzip)
 
 # 🔹 Passo 15 — Divisão da imagem (opcional)
 
-Recomendado para grandes arquivos: 3000 MB
+Recomendado para grandes arquivos: -z1
 
 ![Split size](../images/pagina-5/pag5-image15.png)
 
@@ -160,7 +160,7 @@ Recomendado para grandes arquivos: 3000 MB
 
 # 🔹 Passo 16 — Verificação do sistema de arquivos
 
-Escolha: Skip checking/repairing source file system
+Escolha: 3000
 
 ![Skip checking](../images/pagina-5/pag5-image16.png)
 
@@ -168,7 +168,7 @@ Escolha: Skip checking/repairing source file system
 
 # 🔹 Passo 17 — Verificar imagem gerada
 
-Escolha: -p true
+Escolha: 
 
 E após finalização: Sim, verificar a imagem salva
 
