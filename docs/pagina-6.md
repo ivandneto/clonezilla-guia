@@ -167,13 +167,13 @@ Pressione Enter sempre que solicitado e confirme com: y
 
 ![Confirmação 1](../images/pagina-6/pag6-image16.png)
 
-![Confirmação 2](../images/pagina-6/pag6-image17.png)
+
 
 ---
 
 # 🔹 Processo de restauração em andamento
 
-![Restauração via SSH](../images/pagina-6/pag6-image18.png)
+![Confirmação 2](../images/pagina-6/pag6-image17.png)
 
 ---
 
@@ -181,7 +181,7 @@ Pressione Enter sempre que solicitado e confirme com: y
 
 Se o disco conter uma partição SWAP no fim, a expansão automática pode falhar — exigindo ajuste manual via GParted.
 
-![Resultado final](../images/pagina-6/pag6-image19.png)
+![Resultado final](../images/pagina-6/pag6-image18.png)
 
 ---
 
