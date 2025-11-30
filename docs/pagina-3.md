@@ -143,9 +143,9 @@ Selecione: Sim, verificar a imagem salva
 
 ![Verificação](../images/pagina-3/pag3-image15.png)
 
-Defina o que fazer ao final do processo: -p true
+Defina o que fazer ao final do processo: -p true (significa: não fazer nada)
 
-(significa: não fazer nada)
+![Backup em andamento](../images/pagina-3/pag3-image16.png)
 
 ---
 
@@ -157,8 +157,6 @@ O Clonezilla começará:
 - Compactando  
 - Dividindo arquivos (se configurado)  
 - Verificando integridade
-
-![Backup em andamento](../images/pagina-3/pag3-image16.png)
 
 ![Verificação final](../images/pagina-3/pag3-image17.png)
 
